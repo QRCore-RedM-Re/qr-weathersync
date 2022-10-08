@@ -7,6 +7,7 @@ local freezeTime = Config.FreezeTime
 local blackout = Config.Blackout
 local blackoutVehicle = Config.BlackoutVehicle
 local disable = Config.Disabled
+local QRCore = exports['qr-core']:GetCoreObject()
 
 RegisterNetEvent('qrcore:Client:OnPlayerLoaded', function()
     disable = false

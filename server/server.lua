@@ -10,7 +10,7 @@ local newWeatherTimer = Config.NewWeatherTimer
 --- @param src number - Source to check
 --- @return boolean - has permission
 local function isAllowedToChange(src)
-    if src == 0 or exports['qr-core']:HasPermission(src, "admin") or IsPlayerAceAllowed(src, 'command') then
+    if src == 0 or QRCore.Functions.HasPermission(src, "admin") or IsPlayerAceAllowed(src, 'command') then
         return true
     end
     return false
