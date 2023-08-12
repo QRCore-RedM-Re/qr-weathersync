@@ -1,4 +1,3 @@
-local QRCore = exports["qr-core"]:GetCoreObject()
 local CurrentWeather = Config.StartWeather
 local lastWeather = CurrentWeather
 local baseTime = Config.BaseTime
